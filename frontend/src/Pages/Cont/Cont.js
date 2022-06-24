@@ -163,10 +163,10 @@ const Cont = () => {
       content={<>
 
 <p className="headings">You Will Get A Response Within 24 Hours</p>
-<a href="#" class="fa fa-instagram"></a>
-<a href="#" class="fa fa-snapchat-ghost"></a>
-<a href="#" class="fa fa-linkedin"></a>
-<a href="#" class="fa fa-google"></a>
+<a href="https://www.instagram.com/ali_mehdi01/" class="fa fa-instagram"></a>
+<a href="https://www.snapchat.com/add/aliiiii_786" class="fa fa-snapchat-ghost"></a>
+<a href="https://www.linkedin.com/in/ali--mehdi/" class="fa fa-linkedin"></a>
+<a href="mailto:alimehdi1491@gmail.com" class="fa fa-google"></a>
         
       </>}
       handleClose={od2}
