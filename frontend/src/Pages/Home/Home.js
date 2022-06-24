@@ -1,10 +1,11 @@
 import React from 'react'
 import './Home.css';
 import video from '../videos/video.mp4';
-import uc from '../videos/uc.jpg';
+import  { useEffect, useState } from "react";
 
 
-const Home = () => {
+
+const Main = () =>{
   return (
     
     <div id='bgVideo'>  
@@ -27,5 +28,19 @@ const Home = () => {
     
   ) 
 }
+
+
+const Home = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, []);
+
+  return <div>{loading ? "loading..." : Main()}</div>;
+}
+
 
 export default Home;

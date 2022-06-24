@@ -48,6 +48,7 @@
     width: 40%;
     height: 20%;
    cursor: pointer;
+   overflow: auto;
 }
 .btn2:hover{
     background: #f400ec;
@@ -163,7 +164,8 @@
   right: 0.5%;
   width: 40%;
   height: 20%;
-  cursor:pointer
+  cursor:pointer;
+  overflow: auto;
  
 
  
@@ -277,7 +279,8 @@
   right: 30%;
   width: 40%;
   height: 20%;
-  cursor:pointer
+  cursor:pointer;
+  overflow: auto;
  
 
  

@@ -55,9 +55,9 @@ const Cont = () => {
         <div id="bg">
          <div className='overlay'></div>
          <video src={contt} autoPlay muted loop></video>
-            <button className="btn" onClick={od2}><span></span><span></span> <span></span> <span></span>Contact Me</button>
-            <button className="btn1" onClick={od}><span></span> <span></span> <span></span> <span></span>Projects & Experience</button>
-            <button className="btn2" onClick={od1}> <span></span> <span></span> <span></span> <span></span>Biography</button>
+            <button className="btn" onClick={od2}>Contact Me</button>
+            <button className="btn1" onClick={od}>Projects & Experience</button>
+            <button className="btn2" onClick={od1}>Biography</button>
           
           
             {exp && < Dialog
